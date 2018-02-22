@@ -1,0 +1,44 @@
+body{
+    /*background: url("../img/background.png") no-repeat #ffe9e9;*/
+    /*background-size: cover;*/
+    margin: 0 auto;
+}
+#header {
+    height: 35px;
+    line-height: 35px;
+    background: #2f2f2f center top;
+}
+#header a{
+    text-decoration: none;
+}
+#header-contain {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#header-contain-left {
+    /*float: left;*/
+}
+
+#header-contain-right {
+    float: right;
+}
+
+#header-contain-left #header-ul li {
+    float: left;
+    color: #aaaaaa;
+    font-size: 12px;
+    margin-left: 20px;
+}
+#login{
+    font-size: 12px;
+    color: #aaaaaa;
+}
+#header-contain-right #register{
+    border-left: 1px solid #414141;
+    margin-left:12px;
+    font-size: 12px;
+    color: #aaaaaa;
+    padding-left: 16px;
+}

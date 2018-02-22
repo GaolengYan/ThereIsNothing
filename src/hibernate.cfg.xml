@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url"><![CDATA[jdbc:mysql://localhost:3306/nothingnews?useUnicode=true&characterEncoding=utf-8]]></property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password"/>
+        <!-- DB schema will be updated if needed -->
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <mapping class="Bean.Newscover"/>
+        <mapping resource="Bean/Newscover.hbm.xml"/>
+        <mapping resource="Bean/Newscontent.hbm.xml"/>
+        <mapping class="Bean.Newscontent"/>
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>

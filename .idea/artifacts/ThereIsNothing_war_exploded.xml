@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ThereIsNothing:war exploded">
+    <output-path>F:/Tomcat 8.5/webapps/ThereIsNothing</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ThereIsNothing/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ThereIsNothing" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="ThereIsNothing" />
+          <element id="library" level="project" name="jsoup" />
+          <element id="library" level="project" name="ssh" />
+          <element id="library" level="project" name="struts2-spring-plugin-2.5.13" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

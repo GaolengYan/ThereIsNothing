@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="Bean.Newscover" table="newscover" schema="nothingnews">
+        <id name="newsContext">
+            <column name="newsContext" sql-type="char(50)" length="50"/>
+        </id>
+        <property name="newsTitle">
+            <column name="newsTitle" sql-type="char(50)" length="50"/>
+        </property>
+        <property name="newsCoverImg">
+            <column name="newsCoverImg" sql-type="varchar(100)" length="100"/>
+        </property>
+        <property name="newsAuthor">
+            <column name="newsAuthor" sql-type="char(50)" length="50"/>
+        </property>
+        <property name="newsUpdateTime">
+            <column name="newsUpdateTime" sql-type="char(50)" length="50" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,83 @@
+#container {
+    margin-top: 100px;
+    width: 1200px;
+}
+
+#container #news {
+    width: 1000px;
+    height: auto;
+    padding-bottom: 54px;
+}
+
+#container #news ul {
+    list-style: none;
+}
+
+#container #news ul li {
+    width: 270px;
+    height: 303px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#container #news ul li .imgbox {
+    height: 152px;
+    width: 100%;
+}
+
+#container #news ul li .imgbox a img {
+    height: 100%;
+    width: 100%;
+}
+
+#container #news ul li .textbox {
+    margin: 0 auto;
+    padding: 27px 20px 26px;
+    height: 200px;
+}
+
+#container #news ul li .textbox a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 14px;
+    color: #3c3c3c;
+    text-decoration: none;
+}
+
+#container #news ul li .sourcebox {
+    width: 90%;
+    height: 18px;
+    margin: 6px 0;
+    line-height: 18px;
+    text-align: right;
+    position: relative;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+#container #news ul li .sourcebox .tag{
+    position: absolute;
+    width: auto;
+    height: 18px;
+    line-height: 16px;
+    border: 1px solid #ff84bb;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    text-align: center;
+    padding: 0 10px;
+    left: 20px;
+    top: 0;
+    color: #ff84bb;
+}
+#container #news ul li .sourcebox .time{
+    padding-left: 10px;
+}

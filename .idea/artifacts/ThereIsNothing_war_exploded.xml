@@ -12,6 +12,7 @@
           <element id="library" level="project" name="jsoup" />
           <element id="library" level="project" name="ssh" />
           <element id="library" level="project" name="struts2-spring-plugin-2.5.13" />
+          <element id="library" level="project" name="lib" />
         </element>
       </element>
     </root>

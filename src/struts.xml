@@ -9,7 +9,7 @@
     <constant name="struts.objectFactory" value="spring"/>
     <constant name="struts.objectFactory.spring.autoWire" value="name"/>
 
-    <package name="action" namespace="/action" extends="struts-default">
+    <package name="Action" namespace="/Action" extends="struts-default">
         <action name="NewsLoadAction" class="newsLoadAction" method="execute">
             <result name="success" type="redirect">/index.jsp</result>
         </action>

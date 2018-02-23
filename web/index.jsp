@@ -34,13 +34,13 @@
             <c:forEach var="news" items="${News}">
                 <li>
                     <div class="imgbox">
-                        <a href="/action/NewsContentAction.action?src=${news.newsContext}&newsTitle=${news.newsTitle}">
+                        <a href="/action/NewsContentAction.Action?src=${news.newsContext}&newsTitle=${news.newsTitle}">
                             <img src="${news.newsCoverImg}"
                                  alt="${news.newsTitle}">
                         </a>
                     </div>
                     <p class="textbox">
-                        <a href="/action/NewsContentAction.action?src=${news.newsContext}&newsTitle=${news.newsTitle}">${news.newsTitle}</a>
+                        <a href="/action/NewsContentAction.Action?src=${news.newsContext}&newsTitle=${news.newsTitle}">${news.newsTitle}</a>
                     </p>
                     <p class="sourcebox">
                         <span class="tag">178</span>

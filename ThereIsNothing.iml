@@ -62,5 +62,6 @@
     <orderEntry type="library" exported="" name="jsoup" level="project" />
     <orderEntry type="library" name="ssh" level="project" />
     <orderEntry type="library" name="struts2-spring-plugin-2.5.13" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

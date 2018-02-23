@@ -1,4 +1,4 @@
-package action;
+package Action;
 
 import Dao.NewscoverDao;
 import com.opensymphony.xwork2.ActionSupport;
@@ -21,7 +21,7 @@ public class NewsLoadAction extends ActionSupport implements SessionAware {
         NewscoverDao newscoverDao = new NewscoverDao();
         List list = newscoverDao.findAll();
         session.put("News", list);
-        System.out.println("+++++++++action++++++");
+        System.out.println("+++++++++Action++++++");
         return SUCCESS;
     }
 
